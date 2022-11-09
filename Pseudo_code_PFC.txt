@@ -1,0 +1,41 @@
+DEBUT
+
+# On admet qu'il y a une fonction input permettant de récupérer une valeur entrer par le joueur
+# On admet qu'il y a une fonction random permettant d'obtenir une nombre aléatoire entre 1 et 3
+
+# Définir la fonction PaperRockScissors qui prend l'argument bo qui représente le nombre 
+# de tours nécessaires pour remporter la rencontre; ainsi que p1_name et p2_name pour les
+# noms respectifs des joueurs
+    # Définir la variable p1_score qui va contenir le score du joueur1
+    # Définir la variable p2_score qui va contenir le score du joueur2
+
+    # Tant que p1_score est inférieur à bo et que p2_score est inférieur à bo
+        # Définir p1_action à l'aide du retour de la fonction input
+        # Définir p2_action à l'aide du retour de la fonction random
+
+        # Si p1_action est égal à p2_action alors il y a égalité
+
+        # Sinon si p1_action est égal à 1, soit Rock
+            # Si p2_action est égal à 2, soit Paper
+                # Alors incrémenter p2_score par 1
+            # Sinon, p2_action est Scissors
+                # Alors incrémenter p1_score par 1
+        
+        # Sinon si p1_action est égal à 2, soit Paper
+            # Si p2_action est égal à 1, soit Rock
+                # Alors incrémenter p1_score par 1
+            # Sinon, p2_action est Scissors
+                # Alors incrémenter p2_score par 1
+
+        # Sinon, p1_action est Scissors
+            # Si p2_action est égal à 1, soit Rock
+                # Alors incrémenter p2_score par 1
+            # Sinon, p2_action est Paper
+                # Alors incrémenter p1_score par 1
+
+    # Si p1_score est supérieur ou égal à bo, soit le joueur1 l'emporte
+        # Alors afficher un message déclarant la victoire du joueur1 nommé p1_name et afficher les scores!
+    # Sinon
+        # Afficher un message déclarant la victoire du joueur2 nommé p2_name et afficher les scores!
+
+FIN
