@@ -1,11 +1,9 @@
 DEBUT
 
 # On admet qu'il y a une fonction input permettant de récupérer une valeur entrer par le joueur
-# On admet qu'il y a une fonction random permettant d'obtenir une nombre aléatoire entre 1 et 3
+# On admet qu'il y a une fonction random permettant d'obtenir un nombre aléatoire entre 1 et 3
 
-# Définir la fonction PaperRockScissors qui prend l'argument bo qui représente le nombre 
-# de tours nécessaires pour remporter la rencontre; ainsi que p1_name et p2_name pour les
-# noms respectifs des joueurs
+# Définir la fonction PaperRockScissors qui prend l'argument bo qui représente le nombre de tours nécessaires pour remporter la rencontre; ainsi que p1_name et p2_name pour les noms respectifs des joueurs
     # Définir la variable p1_score qui va contenir le score du joueur1
     # Définir la variable p2_score qui va contenir le score du joueur2
 
@@ -38,7 +36,7 @@ DEBUT
     # Sinon
         # Afficher un message déclarant la victoire du joueur2 nommé p2_name et afficher les scores!
 
-# On appelle la fonction PaperRockScissors avec comme argument le nombre de matchs à remporter pour gagner la rencontre ainsi que les noms respectifs des deux joueurs
-# L'appel ressemblera notmalement à quelque chose comme: PaperRockScissors(3, "Alexandre le Gigachad", "IA - 1000 IQ")
+# On appelle la fonction PaperRockScissors avec comme argument le nombre de tours à remporter pour gagner la rencontre ainsi que les noms respectifs des deux joueurs
+# L'appel ressemblera normalement à quelque chose comme: PaperRockScissors(3, "Alexandre le Gigachad", "IA - 1000 IQ")
 
 FIN
