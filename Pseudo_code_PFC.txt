@@ -38,4 +38,7 @@ DEBUT
     # Sinon
         # Afficher un message déclarant la victoire du joueur2 nommé p2_name et afficher les scores!
 
+# On appelle la fonction PaperRockScissors avec comme argument le nombre de matchs à remporter pour gagner la rencontre ainsi que les noms respectifs des deux joueurs
+# L'appel ressemblera notmalement à quelque chose comme: PaperRockScissors(3, "Alexandre le Gigachad", "IA - 1000 IQ")
+
 FIN
